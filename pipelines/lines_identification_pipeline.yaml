@@ -4,12 +4,12 @@ metadata:
   name: line-identification-pipeline # executable id, must be unique across all your workflows (YAML files), please modify this to any value (e.g. code-pipeline-12345) if you are not the only user of your SAP AI Core instance.
   annotations:
     scenarios.ai.sap.com/description: "add custom code to SAP AI Core"
-    scenarios.ai.sap.com/name: "Code (Tutorial)"
+    scenarios.ai.sap.com/name: "vegetation lines"
     executables.ai.sap.com/description: "Trains model on identifying the power lines in the image"
     executables.ai.sap.com/name: "vegetation lines"
   labels:
-    scenarios.ai.sap.com/id: "learning-code"
-    ai.sap.com/version: "6.0"
+    scenarios.ai.sap.com/id: "vegetationlines"
+    ai.sap.com/version: "1.0"
 spec:
   imagePullSecrets:
     - name: veglinesidentification # your docker registry secret
