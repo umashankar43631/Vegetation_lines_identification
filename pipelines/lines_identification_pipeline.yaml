@@ -12,7 +12,7 @@ metadata:
     ai.sap.com/version: "1.0"
 spec:
   imagePullSecrets:
-    - name: veglinesidentification # your docker registry secret
+    - name: linesdetectionnearveg # your docker registry secret
   entrypoint: mylinepipeline
   templates:
   - name: mylinepipeline
